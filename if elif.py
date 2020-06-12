@@ -1,10 +1,12 @@
 i=int(input("Enter a:"))
+j=int(input("Enter b:"))
+k=int(input("Enter c:"))
 
-if(i>90):
-    print("A")
 
-elif(i>50):
-    print("C")
+if(i>j and i>k):
+    print("a is biggest")
 
+elif(j>i and j>k):
+    print("b is biggest")
 else:
-    print("D")
+    print("c is biggest")
