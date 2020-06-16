@@ -17,6 +17,6 @@ def fib(n):
             print(c)
 
 
-x=int(input("Enter value of n"))
+x=int(input("Enter value of n: "))
 
 fib(x)
